@@ -53,3 +53,17 @@ Test commands executed:
 ```bash
 ./scripts/build.sh Debug
 ./scripts/run_tests.sh Debug
+```
+---- 
+
+## Security Checklist
+ [ ] No unsafe parsing logic introduced
+ [ ] Telemetry validation rules are enforced
+ [ ] No sensitive data added (keys, credentials, private telemetry)
+ [ ] No weaponized exploit code included
+ [ ] Defense actions remain policy-constrained and explainable
+
+## Documentation Checklist
+[ ] Docs updated if behavior changed
+[ ] Public API documentation updated if include/ changed
+[ ] CHANGELOG updated (if required)
