@@ -2,7 +2,7 @@
 
 #include <string>
 
-#include "aic-starlink/telemetry/telemetry_event.h"
+#include "../aic-starlink/telemetry/telemetry_event.h"
 using namespace std; 
 
 namespace aic_starlink :: detection 
