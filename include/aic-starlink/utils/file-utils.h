@@ -1,11 +1,12 @@
 #pragma once 
+#include <iostream> 
 
 #include <string>
 #include <vector>
 
 using namespace std; 
 
-#include "../aic-starlink/core/error.h"
+#include "error.h"
 
 namespace aic_starlink :: utils 
 {
@@ -14,9 +15,10 @@ namespace aic_starlink :: utils
         public: 
         [[nodiscard]] static bool exists(const string &path); 
 
-        static core :: Error readAllText(const string &path, string &out_text); 
-        static core :: Error writeAllText(const string &path, const string &text); 
+        // static core :: Error readAllText(const string &path, string &out_text); 
+        // static core :: Error writeAllText(const string &path, const string &text); 
 
-        static core :: Error listFiles(const string &dir, vector<string> &out_files); 
+        // static core :: Error listFiles(const string &dir, vector<string> &out_files); 
+
     };
 }
